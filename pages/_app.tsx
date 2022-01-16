@@ -6,7 +6,7 @@ import { AppProps } from 'next/app'
 import Head from 'next/head'
 import { DefaultSeo } from 'next-seo'
 
-import SEO from '../../next-seo.config'
+import SEO from '../next-seo.config'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const pageMeta = (Component as any)?.defaultProps?.meta || {}
